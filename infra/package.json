@@ -1,0 +1,26 @@
+{
+  "name": "sandbox--eventbridge",
+  "version": "0.0.1",
+  "private": true,
+  "license": "NONE",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "precdk": "yarn run build",
+    "cdk": "cdk"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-cloudtrail": "^1.107.0",
+    "@aws-cdk/aws-events": "^1.108.0",
+    "@aws-cdk/aws-events-targets": "^1.108.0",
+    "@aws-cdk/aws-iam": "^1.107.0",
+    "@aws-cdk/aws-kms": "^1.107.0",
+    "@aws-cdk/aws-sqs": "^1.108.0",
+    "@aws-cdk/core": "^1.102.0",
+    "aws-cdk": "^1.102.0"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "typescript": "^4.2.4"
+  }
+}
